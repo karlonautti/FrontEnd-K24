@@ -1,12 +1,18 @@
-import './App.css'
-import TodoList from './components/todolist'
+//import './App.css'
+
+import { AppBar, Toolbar, Typography } from "@mui/material"
+import CarList from "./components/CarList"
 
 function App() {
 
   return (
     <>
-      <h1>TEHTÄVÄLISTA</h1>
-      <TodoList/>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6">Car App</Typography>
+        </Toolbar>
+      </AppBar> 
+      <CarList /> 
     </>
   )
 }
