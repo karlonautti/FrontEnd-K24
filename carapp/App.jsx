@@ -1,5 +1,3 @@
-//import './App.css'
-
 import { AppBar, Toolbar, Typography } from "@mui/material"
 import CarList from "./components/CarList"
 
